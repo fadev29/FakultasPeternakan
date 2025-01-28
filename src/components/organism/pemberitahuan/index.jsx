@@ -1,5 +1,5 @@
 import Button from "@/components/atoms/Button";
-import Card from "@/components/atoms/crad";
+import Card from "@/components/atoms/cardx";
 import React from "react";
 
 function Pemberitahuan() {
@@ -18,7 +18,7 @@ function Pemberitahuan() {
         <Card
           h1={"Production"}
           text={
-            "Berbagai produk peternakan telah berhasil kami kembangkan dan kami pasarkan"
+            "Berbagai produk peternakan telah berhasil kami kembangkan dan kami pasarkan penelitian"
           }
           image={"/images/user.png"}
           bg={" bg-green-800"}
@@ -57,7 +57,7 @@ function Pemberitahuan() {
           </p>
         </div>
         <div className="flex lg:py-[30px] py-4">
-          <Button>Liat Fasilitas PPT</Button>
+          <Button warna={"bg-green-800"}>Liat Fasilitas Fakultas</Button>
         </div>
       </div>
     </section>

@@ -1,17 +1,11 @@
-import Alur from "@/components/organism/alurPPT";
-import JumlahFasilitas from "@/components/organism/jumlahFasilitas";
-import Navbar from "@/components/organism/navbar";
-import Pemberitahuan from "@/components/organism/pemberitahuan";
-import Welcome from "@/components/organism/welcome";
+import Page1 from "./page1";
+import Page3 from "./page3";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <Welcome />
-      <Pemberitahuan />
-      <Alur />
-      <JumlahFasilitas />
+      <Page1 />
+      {/* <Page3 /> */}
     </div>
   );
 }

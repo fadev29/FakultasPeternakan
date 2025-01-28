@@ -4,7 +4,7 @@ function Card({ h1, text, image, bg, warna, div }) {
   return (
     <div>
       <div
-        className={`border p-6 lg:max-w-[360px]  text-center flex flex-col items-center py-[10px] lg:py-[25px] px-[30px] gap-1 ${warna}`}
+        className={`border p-6 lg:max-w-[360px] max-w-[100px]  text-center flex flex-col items-center py-[10px] lg:py-[25px] px-[30px] gap-1 ${warna}`}
       >
         <a href="#">
           <img

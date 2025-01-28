@@ -4,21 +4,23 @@ import React from "react";
 function Welcome() {
   return (
     <section
-      className="lg:bg-cover bg-center"
+      className="bg-cover bg-center"
       style={{
         backgroundImage: "url('/images/fapet.webp')",
       }}
     >
-      <div className="flex flex-col justify-center text-center items-center lg:py-[300px] lg:px-[350px] py-[240px] px-5">
-        <h1 className="text-white font-bold text-2xl lg:text-5xl leading-tight">
+      <div className="flex flex-col justify-center items-center text-center min-h-[70vh] px-4 py-10 md:px-10 md:py-20 lg:py-[300px] lg:px-[350px]">
+        <h1 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl leading-tight">
           Pusat Pengembangan Ternak
         </h1>
-        <div className="lg:px-[180px] lg:py-2 px-[30px]">
-          <h2 className="text-white font-medium text-[11px] lg:text-[17px] mt-2">
+        <div className="mt-2 md:mt-4 lg:mt-6 max-w-md lg:max-w-xl">
+          <h2 className="text-white font-medium text-sm md:text-base lg:text-lg">
             Fakultas Peternakan Universitas Gadjah Mada
           </h2>
         </div>
-        <Button>Tentang Kami</Button>
+        <div className="mt-6 md:mt-8 lg:mt-10">
+          <Button warna={"bg-green-800"}>Tentang Kami PPT</Button>
+        </div>
       </div>
     </section>
   );
